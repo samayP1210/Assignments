@@ -1,0 +1,35 @@
+/* Element selector */
+h1 {
+    color: orange;
+}
+/* Class Selector */
+.ad {
+    color: blue;
+    font-style: italic;
+}
+.sd {
+    background-color: red;
+    font-style: italic;
+}
+/* Descendant selector */
+article li{
+    color : red;
+}
+/* Child selector */
+article > ol{
+    background-color: rgba(46, 131, 228, 0.335);
+}
+/* Big class changing font to 20pt */
+.Big{
+    font-size: 20pt;
+}
+/*Big class changing background color of paragraph to green */
+p.Big {
+    background-color: lightgreen;
+}
+
+
+* {
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
