@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment5 Q2</title>
+</head>
+<body>
+    <ul><b>In JavaScript, a variable has two types of scope:</b>
+        <li>Global Scope</li>
+        <li>Local Scope</li>
+    </ul>
+    <script>
+        var x = "Hello";// 'x' is global variable which is a variable declared at the top of a program or outside of a function.
+        function greeting() {
+            var y = "World";// 'y' is local variable, it can only be accessed within a function.
+            console.log(x + " " + y);
+        }
+        greeting();
+        console.log(x + " " + y); // error as 'y' is a local variable.
+    </script>
+</body>
+</html>
