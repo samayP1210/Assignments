@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+</head>
+<body>
+    <h3>Samay Patel <br>2006081 <br>Assignment 6</h3>
+    <p>Check console to see the name and office address of 3 person</p>
+    <script>
+      function person(firstName, lastName, address) {
+          this.firstName = firstName;
+          this.lastName = lastName;
+          this.address = address;
+      }
+      var first = new person("Samay", "Patel", "323, Birguwa House");
+      var second = new person("Scooby", "Doo", "420, Station Road");
+      var third = new person("Edward", "Newgate", "960, Rajiv Chauk");
+      console.log("(1st Person) Name:" + first.firstName + " " + first.lastName + "; Office Address:" + first.address);
+      console.log("(2nd Person) Name:" + second.firstName + " " + second.lastName + "; Office Address:" + second.address);
+      console.log("(3rd Person) Name:" + third.firstName + " " + third.lastName + "; Office Address:" + third.address);
+    </script>
+</body>
+</html>
